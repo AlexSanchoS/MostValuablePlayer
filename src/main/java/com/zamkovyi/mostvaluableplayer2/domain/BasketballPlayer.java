@@ -15,4 +15,14 @@ public class BasketballPlayer extends Player{
     private int rebounds;
     private int assists;
 
+    @Override
+    public String toString() {
+        return "BasketballPlayer{" +
+                "name='" + name + '\'' +
+                ", number=" + number +
+                ", scoredPoints=" + scoredPoints +
+                ", rebounds=" + rebounds +
+                ", assists=" + assists +
+                '}';
+    }
 }

@@ -13,5 +13,13 @@ public class HandballPlayer extends Player{
     private int goalsMade;
     private int goalsReceived;
 
-
+    @Override
+    public String toString() {
+        return "HandballPlayer{" +
+                "name='" + name + '\'' +
+                ", number=" + number +
+                ", goalsMade=" + goalsMade +
+                ", goalsReceived=" + goalsReceived +
+                '}';
+    }
 }
